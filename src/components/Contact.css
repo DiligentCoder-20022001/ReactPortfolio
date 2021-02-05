@@ -1,0 +1,25 @@
+.center {
+    padding-top: 2%;
+    margin: auto;   
+    width: 80%;
+    text-align: center;
+    background: #f1f1f1;
+    padding-bottom: 2%;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid grey ;
+    border-radius: 25%;
+  }
+
+  .center1 {
+    margin: auto;   
+    width: 60%;
+    text-align: center;
+  }

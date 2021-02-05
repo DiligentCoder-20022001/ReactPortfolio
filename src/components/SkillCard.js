@@ -16,16 +16,25 @@ const styles1 = {
     }
 }
 class skill extends React.Component {
-    constructor(props)
-    {
+    constructor(props) {
         super(props);
         this.con = this.props.con;
+        this.src = this.props.src;
     }
     render() {
+        
         return (
             <StyleRoot>
-            <div className = "skillCard" style = {styles.slideInUp}><StyleRoot><div style = {styles1.zoomIn}>{this.con}</div></StyleRoot>
-            </div>
+                <div style={styles.slideInUp}>
+                    <StyleRoot>
+                        <div style={styles.slideInUp}>
+
+                            <div class="card card-1">
+                                <h3>{this.con}</h3>
+                            </div>
+                        </div>
+                    </StyleRoot>
+                </div>
             </StyleRoot>
         );
     }
